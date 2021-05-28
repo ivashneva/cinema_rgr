@@ -1,10 +1,10 @@
-package com.bezkoder.spring.datajpa.model;
+package com.rgr.spring.datajpa.model;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "genre")
-public class Genre {
+@Table(name = "produsser")
+public class Produsser {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -13,11 +13,17 @@ public class Genre {
 	@Column(name = "Name")
 	private String title;
 
-	public Genre() {
+//	@Column(name = "ID_Genre")
+//	private int id_genre;
+//
+//	@Column(name = "ID_Produsser")
+//	private int id_produsser;
+
+	public Produsser() {
 
 	}
 
-	public Genre(String title/*, String description, boolean published*/) {
+	public Produsser(String title/*, String description, boolean published*/) {
 		this.title = title;
 //		this.description = description;
 //		this.published = published;
@@ -35,7 +41,18 @@ public class Genre {
 		this.title = title;
 	}
 
+	/*public String getDescription() {
+		return description;
+	}
 
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public boolean isPublished() {
+		return published;
+	}
+*/
 	/*public void setPublished(boolean isPublished) {
 		this.published = isPublished;
 	}*/

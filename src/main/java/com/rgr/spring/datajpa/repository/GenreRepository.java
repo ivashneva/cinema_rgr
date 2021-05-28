@@ -1,7 +1,6 @@
-package com.bezkoder.spring.datajpa.repository;
+package com.rgr.spring.datajpa.repository;
 
-import com.bezkoder.spring.datajpa.model.Genre;
-import com.bezkoder.spring.datajpa.model.Produsser;
+import com.rgr.spring.datajpa.model.Genre;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,6 +1,5 @@
-package com.bezkoder.spring.datajpa.sec;
+package com.rgr.spring.datajpa.sec;
 
-import com.bezkoder.spring.datajpa.sec.CustomUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

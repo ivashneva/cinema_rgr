@@ -1,4 +1,4 @@
-package com.bezkoder.spring.datajpa.sec;
+package com.rgr.spring.datajpa.sec;
 
 
 

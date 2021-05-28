@@ -1,8 +1,7 @@
-package com.bezkoder.spring.datajpa.controller;
+package com.rgr.spring.datajpa.controller;
 
-import com.bezkoder.spring.datajpa.model.Film;
-import com.bezkoder.spring.datajpa.model.Produsser;
-import com.bezkoder.spring.datajpa.repository.ProdusserRepository;
+import com.rgr.spring.datajpa.model.Produsser;
+import com.rgr.spring.datajpa.repository.ProdusserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
